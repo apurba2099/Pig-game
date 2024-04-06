@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-starter-file",
+  "version": "1.0.0",
+  "description": "Node js ",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "author": "Apurba Dutta",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
