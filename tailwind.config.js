@@ -2,8 +2,12 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        customFont: ["Press Start 2P"],
+      },
+    },
   },
   plugins: [],
-}
+};
 

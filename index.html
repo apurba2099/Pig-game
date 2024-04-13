@@ -2,23 +2,51 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body class="bg-[#00172b]">
-    <div class="wholeBox shadow-xl flex justify-evenly m-10 shadow-indigo-900 rounded-2xl">
+  <body class="bg-[#00172b] capitalize">
+    <!-- GAME-HEADING SECTION  -->
+    <div class="head flex justify-center items-center">
+      <h1
+        class="name flex justify-center items-center text-2xl text-white font-semibold font-mono mt-8 bg-cyan-500 p-3 rounded-lg w-52"
+      >
+        🐽Pig-game🐽
+      </h1>
+    </div>
 
-      <div class="firstBox m-3 p-3 bg-[#7eb7ee] rounded-3xl shadow-2xl">
+    <!-- Whole container box start  -->
+    <div class="wholeBox flex justify-evenly m-10">
+      <!-- First box player-1  -->
+      <div
+        class="firstBox w-96 m-3 p-3 bg-[#7eb7ee] rounded-3xl flex flex-col justify-center items-center shadow-xl shadow-cyan-400"
+      >
+        <div class="sticker text-5xl">🐷</div>
         <h2
           class="headBox p-3 m-3 text-2xl text-white font-semibold font-mono text-center"
         >
           Player - 1
         </h2>
-        
-        <div class= "status flex justify-center items-center">
-          <p class="font-mono font-semibold">Online</p>
-          <div class="dot w-2 h-2 rounded-full bg-green-500 m-2 animate-ping"></div>
+
+        <div class="status flex justify-center items-center">
+          <p class="font-mono text-xl font-semibold">Online</p>
+          <div
+            class="dot w-2 h-2 rounded-full bg-green-500 m-2 animate-ping"
+          ></div>
+        </div>
+
+        <div class="status hidden flex justify-center items-center">
+          <p class="font-mono text-xl font-semibold">Offline</p>
+          <div
+            class="dot w-2 h-2 rounded-full bg-red-500 m-2 animate-ping"
+          ></div>
         </div>
 
         <span
@@ -26,30 +54,117 @@
           >0</span
         >
 
-        <span
-          class="currentScore w-40 bg-[#f38f5f] text-2xl py-4 px-8 m-5
-          relative top-5 flex justify-center items-center rounded-xl text-white font-semibold font-mono "
-          >current</span
+        <div
+          class="currentScore w-40 bg-[#051a2f] text-2xl py-4 px-8 m-5 relative top-5 flex justify-center items-center rounded-xl text-white font-semibold font-mono flex-col"
         >
+          <span class="currentScoreHeading">current </span>
+          <span class="currentScore bg-cyan-600 rounded-lg px-3">0</span>
+        </div>
       </div>
+      <!-- First-box player-1 end box  -->
 
-      <div class="secondBox m-3 p-3 bg-[#7eb7ee] rounded-3xl shadow-2xl">
+      <!-- SwitchSection Start -->
+      <div class="switchSection flex justify-center flex-col p-5">
+        <button
+          class="btn bg-cyan-500 m-2 p-2 rounded-xl text-lg font-semibold font-mono text-white"
+        >
+          🎮New Game
+        </button>
+        <button
+          class="btn Modal bg-cyan-500 m-2 p-2 rounded-xl text-lg font-semibold font-mono text-white"
+        >
+          📑Rules
+        </button>
+        <!-- DiceImage Section  -->
+        <div class="diceImage hidden">
+          <img
+            src="./img/dice-1.png"
+            alt="diceImage"
+            class="w-36 rounded-3xl shadow-cyan-400 shadow-lg m-2"
+          />
+        </div>
+        <!-- DiceImage Section End  -->
+
+        <button
+          class="btn bg-cyan-500 m-2 p-2 rounded-xl text-lg font-semibold font-mono text-white"
+        >
+          🎲Roll Dice
+        </button>
+        <button
+          class="btn bg-cyan-500 m-2 p-2 rounded-xl text-lg font-semibold font-mono text-white"
+        >
+          ✊Hold
+        </button>
+      </div>
+      <!-- SwitchSection End  -->
+
+      <!-- Second-box player-2 box Start  -->
+      <div
+        class="secondBox w-96 m-3 p-3 bg-[#7eb7ee] rounded-3xl flex flex-col justify-center items-center shadow-xl shadow-cyan-400"
+      >
+        <div class="sticker text-5xl">🐷</div>
         <h2
           class="headBox p-3 m-3 text-2xl text-white font-semibold font-mono text-center"
         >
           Player - 2
         </h2>
+
+        <div class="status hidden flex justify-center items-center">
+          <p class="font-mono text-xl font-semibold">Online</p>
+          <div
+            class="dot w-2 h-2 rounded-full bg-green-500 m-2 animate-ping"
+          ></div>
+        </div>
+
+        <div class="status flex justify-center items-center">
+          <p class="font-mono text-xl font-semibold">Offline</p>
+          <div
+            class="dot w-2 h-2 rounded-full bg-red-500 m-2 animate-ping"
+          ></div>
+        </div>
+
         <span
           class="score w-40 bg-[#051a2f] text-3xl p-2 m-2 flex justify-center items-center rounded-xl text-white font-semibold font-mono shadow-2xl"
           >0</span
         >
 
-        <span
-          class="currentScore w-40 bg-[#f38f5f] text-2xl py-4 px-8 m-5
-          relative top-5 flex justify-center items-center rounded-xl text-white font-semibold font-mono "
-          >current</span
+        <div
+          class="currentScore w-40 bg-[#051a2f] text-2xl py-4 px-8 m-5 relative top-5 flex justify-center items-center rounded-xl text-white font-semibold font-mono flex-col"
         >
+          <span class="currentScoreHeading">current </span>
+          <span class="currentScore bg-cyan-600 rounded-lg px-3">0</span>
+        </div>
+        <!-- Second-box player-2 end box  -->
       </div>
+
+      <!-- MODAL-SECTION  -->
+      <div class="modal hidden rounded-xl absolute z-10 p-4 m-2 w-[470px]">
+        <!-- close-modal button  -->
+        <button
+          class="close-modal text-5xl text-red-600 relative top-[55px] md:absolute -right-72 font-extrabold w-10 h-10 text-center md:right-12 md:top-6"
+        >
+          &times;
+        </button>
+
+        <h2
+          class="design px-2 py-2 m-2 text-center text-3xl font-extrabold text-slate-700 bg-cyan-300 font-mono rounded-xl tracking-wider"
+        >
+          🧾RULES🧾
+        </h2>
+
+        <p
+          class="design bg-cyan-300 rounded-xl p-4 m-2 text-xl font-semibold font-mono text-center"
+        >
+          1. The player who first hits the score 100 will win the game. <br />2.
+          Esc - New Game <br />3. R - Roll Dice <br />
+          4.Space - Hold
+        </p>
+      </div>
+
+      <!-- OverLay  -->
+      <div
+        class="overlay hidden fixed top-0 left-0 h-[100%] w-[100%] backdrop-blur-sm"
+      ></div>
     </div>
   </body>
 </html>
