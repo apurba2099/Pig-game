@@ -542,6 +542,10 @@ video {
   top: 1.25rem;
 }
 
+.m-10 {
+  margin: 2.5rem;
+}
+
 .m-2 {
   margin: 0.5rem;
 }
@@ -554,32 +558,20 @@ video {
   margin: 1.25rem;
 }
 
-.m-10 {
-  margin: 2.5rem;
-}
-
 .flex {
   display: flex;
-}
-
-.h-7 {
-  height: 1.75rem;
 }
 
 .h-2 {
   height: 0.5rem;
 }
 
-.w-40 {
-  width: 10rem;
-}
-
-.w-7 {
-  width: 1.75rem;
-}
-
 .w-2 {
   width: 0.5rem;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 @keyframes ping {
@@ -605,20 +597,20 @@ video {
   justify-content: space-evenly;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .rounded-3xl {
   border-radius: 1.5rem;
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .bg-\[\#00172b\] {
@@ -631,11 +623,6 @@ video {
   background-color: rgb(5 26 47 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#78b7f0\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(120 183 240 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#7eb7ee\] {
   --tw-bg-opacity: 1;
   background-color: rgb(126 183 238 / var(--tw-bg-opacity));
@@ -644,16 +631,6 @@ video {
 .bg-\[\#f38f5f\] {
   --tw-bg-opacity: 1;
   background-color: rgb(243 143 95 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#0c4476\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(12 68 118 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#0e4370\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(14 67 112 / var(--tw-bg-opacity));
 }
 
 .bg-green-500 {
@@ -669,10 +646,6 @@ video {
   padding: 0.75rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -681,16 +654,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .text-center {
@@ -709,11 +672,6 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .font-semibold {
@@ -735,11 +693,6 @@ video {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-indigo-500\/50 {
-  --tw-shadow-color: rgb(99 102 241 / 0.5);
-  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .shadow-indigo-900 {
