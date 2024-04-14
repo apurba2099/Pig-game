@@ -1,13 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html"],
+  content: ['./*.html'],
   theme: {
     extend: {
       fontFamily: {
-        customFont: ["Press Start 2P"],
+        customFont: ['Bungee Spice'],
       },
     },
   },
   plugins: [],
 };
-
