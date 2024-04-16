@@ -622,10 +622,6 @@ video {
   margin: 1.25rem;
 }
 
-.m-4{
-  margin: 1rem;
-}
-
 .mt-8{
   margin-top: 2rem;
 }
@@ -682,30 +678,6 @@ video {
   width: 470px;
 }
 
-.w-\[500px\]{
-  width: 500px;
-}
-
-.w-\[20px\]{
-  width: 20px;
-}
-
-.w-\[0px\]{
-  width: 0px;
-}
-
-.w-\[4700px\]{
-  width: 4700px;
-}
-
-.w-\[5200px\]{
-  width: 5200px;
-}
-
-.w-\[520px\]{
-  width: 520px;
-}
-
 @keyframes ping{
   75%, 100%{
     transform: scale(2);
@@ -753,10 +725,6 @@ video {
   border-width: 4px;
 }
 
-.border{
-  border-width: 1px;
-}
-
 .border-cyan-200{
   --tw-border-opacity: 1;
   border-color: rgb(165 243 252 / var(--tw-border-opacity));
@@ -797,11 +765,6 @@ video {
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
-.bg-cyan-200{
-  --tw-bg-opacity: 1;
-  background-color: rgb(165 243 252 / var(--tw-bg-opacity));
-}
-
 .p-2{
   padding: 0.5rem;
 }
@@ -816,10 +779,6 @@ video {
 
 .p-5{
   padding: 1.25rem;
-}
-
-.p-6{
-  padding: 1.5rem;
 }
 
 .px-2{
@@ -845,16 +804,6 @@ video {
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-7{
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
-.px-72{
-  padding-left: 18rem;
-  padding-right: 18rem;
 }
 
 .text-center{
@@ -884,11 +833,6 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-extrabold{
@@ -1008,18 +952,18 @@ body {
 }
 
 .btn:focus {
-  box-shadow: #7eb7ee  0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #7eb7ee  0 -3px 0 inset;
+  box-shadow: #7eb7ee 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #7eb7ee 0 -3px 0 inset;
 }
 
 .btn:hover {
   box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00172b  0 -3px 0 inset;
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00172b 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
 .btn:active {
-  box-shadow: #00172b  0 3px 7px inset;
+  box-shadow: #00172b 0 3px 7px inset;
   transform: translateY(2px);
 }
 
