@@ -23,7 +23,8 @@
         class="firstBox border-4 border-cyan-200 w-96 m-3 p-3 bg-[#051a2f] rounded-3xl flex flex-col justify-center items-center shadow-xl shadow-cyan-400">
         <div class="sticker text-5xl">🐷</div>
         <h2
-          class="headBox p-3 m-3 text-2xl text-white font-semibold text-center">
+          class="headBox p-3 m-3 text-2xl text-white font-semibold text-center"
+          id="name--0">
           Player - 1
         </h2>
 
@@ -41,6 +42,7 @@
 
         <span
           class="design score w-40 bg-[#7eb7ee] text-3xl p-2 m-2 flex justify-center items-center rounded-xl text-white font-semibold"
+          id="score--0"
           >0</span
         >
 
@@ -63,7 +65,7 @@
           📑Rules
         </button>
         <!-- DiceImage Section  -->
-        <div class="diceImage hidden">
+        <div class="diceImage hidden flex justify-center items-center">
           <img
             src="./img/dice-1.png"
             alt="diceImage"
@@ -152,5 +154,7 @@
       <div
         class="overlay hidden fixed top-0 left-0 h-[100%] w-[100%] backdrop-blur-sm"></div>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
