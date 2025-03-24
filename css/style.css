@@ -622,10 +622,6 @@ video {
   margin: 1.25rem;
 }
 
-.mt-8{
-  margin-top: 2rem;
-}
-
 .flex{
   display: flex;
 }
@@ -660,10 +656,6 @@ video {
 
 .w-40{
   width: 10rem;
-}
-
-.w-52{
-  width: 13rem;
 }
 
 .w-96{
